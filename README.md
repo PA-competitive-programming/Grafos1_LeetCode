@@ -1,45 +1,39 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Grafos 1 - LeetCode
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Grafos1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0097181  |  Ana Beatriz Santos |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Repositório com resoluções de problemas de grafos do [LeetCode](https://leetcode.com/).
+
+## Apresentação 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+## Exercicio 1 - Clone Graph
+
+Dificuldade: Médio <br>
+Link: [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
+
+![](assets/img/ex1.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
+
+Você precisará de um compilador C/C++ instalado em seu sistema para utilizar o código localmente ou apenas criar uma conta no [LeetCode](https://leetcode.com/).
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para executar o trabalho basta abrir o link do exercício e copiar e colar o código. Se for utilizar localmente siga os seguintes comandos:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+`gcc -o nomeArquivo nomeArquivo.c`
 
+`./nomeArquivo`
 
 
 
