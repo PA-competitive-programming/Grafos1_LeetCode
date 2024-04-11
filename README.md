@@ -7,10 +7,10 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 18/0097181  |  Ana Beatriz Santos |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0023748  |  Marcos Santos Bittar |
 
 ## Sobre 
-Repositório com resoluções de problemas de grafos do [LeetCode](https://leetcode.com/).
+Repositório com resoluções de problemas de grafos do [LeetCode](https://leetcode.com/) e do [CSES](https://cses.fi/problemset/task/1192).
 
 ## Apresentação 
 
@@ -24,6 +24,15 @@ Solução: [Código](assets/codes/clone_graph.c)<br>
 Para resolver esse exercício foi realizada a busca em profundidade (DFS) para percorrer o grafo original, criando uma cópia à medida que avançava. 
 
 ![](assets/img/ex1.png)
+
+## Exercicio 2 - Counting Rooms
+
+Dificuldade: difícil <br>
+Link: [Counting Rooms](https://cses.fi/problemset/task/1192)<br>
+Solução: [Código](assets/codes/countingRooms2.cpp)<br>
+Para resolver esse exercício foi realizada a busca em Largura (bfs) para percorrer a entrada, que foi salva em uma matriz de caracteres. Além disso, para controlar quais dos vértices haviam sido visitados foi utilizada uma matriz de inteiros, contendo 1 para vértices visitados e 0 para vértices não visitados. Finalmente, para saber se a entrada era ou não um vértice analisáva-se o código ascii do caracter na matriz de caracteres, dado que os pontos "." eram vértices e os jogos da velha "#", na prática, não existiam
+
+![](assets/img/ex2.png)
 
 ## Instalação 
 **Linguagem**: C<br>
