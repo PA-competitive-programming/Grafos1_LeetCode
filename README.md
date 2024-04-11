@@ -19,7 +19,9 @@ Repositório com resoluções de problemas de grafos do [LeetCode](https://leetc
 ## Exercicio 1 - Clone Graph
 
 Dificuldade: Médio <br>
-Link: [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
+Link: [Clone Graph](https://leetcode.com/problems/clone-graph/description/)<br>
+Solução: [Código](assets/codes/clone_graph.c)<br>
+Para resolver esse exercício foi realizada a busca em profundidade (DFS) para percorrer o grafo original, criando uma cópia à medida que avançava. 
 
 ![](assets/img/ex1.png)
 
