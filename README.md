@@ -1,4 +1,4 @@
-# Grafos 1 - LeetCode
+# Grafos 1 - Online Judge
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos1<br>
@@ -10,13 +10,13 @@
 | 20/0023748  |  Marcos Santos Bittar |
 
 ## Sobre 
-Repositório com resoluções de problemas de grafos do [LeetCode](https://leetcode.com/) e do [CSES](https://cses.fi/problemset/task/1192).
+Repositório com resoluções de problemas de grafos do [LeetCode](https://leetcode.com/) e do [CSES](https://cses.fi/problemset/).
 
 ## Apresentação 
 
 ## Screenshots
 
-## Exercicio 1 - Clone Graph
+### Exercício 1 - Clone Graph
 
 Dificuldade: Médio <br>
 Link: [Clone Graph](https://leetcode.com/problems/clone-graph/description/)<br>
@@ -25,7 +25,7 @@ Para resolver esse exercício foi realizada a busca em profundidade (DFS) para p
 
 ![](assets/img/ex1.png)
 
-## Exercicio 2 - Counting Rooms
+### Exercício 2 - Counting Rooms
 
 Dificuldade: difícil <br>
 Link: [Counting Rooms](https://cses.fi/problemset/task/1192)<br>
@@ -34,10 +34,20 @@ Para resolver esse exercício foi realizada a busca em Largura (bfs) para percor
 
 ![](assets/img/ex2.png)
 
+### Exercício 3 - Binary Tree Maximum Path Sum
+
+Dificuldade: Difícil <br>
+Link: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)<br>
+Solução: [Código](assets/codes/binary_tree.c)<br>
+
+Para resolver esse exercício o algoritmo percorre a árvore binária em pré-ordem, calculando recursivamente o máximo caminho de soma para cada nó e atualizando o valor máximo global (maxSum) conforme necessário. No final, o valor máximo encontrado é retornado pela função maxPathSum.
+
+![](assets/img/ex3.png)
+
 ## Instalação 
 **Linguagem**: C<br>
 
-Você precisará de um compilador C/C++ instalado em seu sistema para utilizar o código localmente ou apenas criar uma conta no [LeetCode](https://leetcode.com/).
+Você precisará de um compilador C/C++ instalado em seu sistema para utilizar o código localmente ou apenas criar uma conta no [LeetCode](https://leetcode.com/) ou no [CSES](https://cses.fi/problemset/).
 
 ## Uso 
 Para executar o trabalho basta abrir o link do exercício e copiar e colar o código. Se for utilizar localmente siga os seguintes comandos:
